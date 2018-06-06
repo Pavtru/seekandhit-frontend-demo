@@ -1,0 +1,257 @@
+.top-align{
+  vertical-align:top;
+}
+
+.vertical{
+  border-left: 6px solid green;
+    height: 100%;
+  
+}
+.horizontal{
+  border-top: 6px solid green;
+    width: 100%;
+    align-self: left;
+}
+
+.typeone{
+  display: block;
+}
+.typetwo{
+  display: none;
+}
+.hardbtnwrap {
+  width: 100%;
+  text-align: center;
+}
+
+
+.rowcss {
+  -webkit-box-shadow: 6px 6px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 5px -2px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 5px -2px rgba(0,0,0,0.75);
+width: 100%;
+}
+
+.topbtntable {
+  width: 20%;
+  padding: 15px;
+  vertical-align: top;
+  align-self: center;
+  text-align: left;
+  display: inline-block;
+}
+
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  margin-top: 32px;
+  
+}
+.topbtn {
+  
+  align-content: left;
+  padding-left: 5%;
+  vertical-align:top;
+  
+  
+}
+
+.checkdiv {
+  vertical-align: top;
+  text-align: left;
+  min-width: 98px;
+}
+
+.hardbuton {
+  margin-left:auto;
+  margin-right:32px;
+  background-color: #4CAF50;
+  
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+   font-size: 16px;
+  margin: 2px 15%;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+
+.form-field  {
+  display: "block";
+  vertical-align:top;
+  padding-right:32px;
+  text-align:left;
+  }
+
+
+.app-test {
+  display: "block";
+  padding-Left: 32px;
+  text-align: left;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.checkcontainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.checkcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+.checkcontainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+
+.checkcontainer input:checked ~ .checkmark {
+    background-color: rgb(33, 243, 44);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.checkcontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+
+.checkcontainer .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+.radiocontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.radiocontainer input {
+  position: absolute;
+  opacity: 0;
+}
+
+
+.radiocheckmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+.radiocontainer:hover input ~ .radiocheckmark {
+  background-color: #ccc;
+}
+
+
+.radiocontainer input:checked ~ .radiocheckmark {
+  background-color: rgb(33, 243, 44);
+}
+
+
+.radiocheckmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.radiocontainer input:checked ~ .radiocheckmark:after {
+  display: block;
+}
+
+
+.radiocontainer .radiocheckmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
